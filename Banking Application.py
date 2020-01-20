@@ -198,7 +198,7 @@ def homePage():
         createAccount()
     elif (promptQuestion == 2):
         authenticateUser()
-    elif (promptQuestion == 0):
+    elif (promptQuestion == 3):
         exit()
     else:
         print("Enter a valid option")
